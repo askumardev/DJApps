@@ -25,3 +25,4 @@
 * subl .
 * python3 manage.py runserver
 * deactivate
+* python3 manage.py collectstatic
