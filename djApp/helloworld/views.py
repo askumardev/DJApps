@@ -5,3 +5,9 @@ from django.http import HttpResponse
 
 def home(request):
     return render(request, 'home.html',{'name':'Satish'});
+
+def add(request):
+    v1 = int(request.GET['n1'])
+    v2 = int(request.GET['n2'])
+    res = v1 + v2
+    return render(request, "result.html", {'result':res})
