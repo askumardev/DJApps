@@ -1,4 +1,5 @@
 # Byte-compiled / optimized / DLL files
+.env
 *djApp/djApp/__pycache__/
 *.py[cod]
 *$py.class
