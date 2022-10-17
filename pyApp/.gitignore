@@ -1,0 +1,7 @@
+# Byte-compiled / optimized / DLL files
+.env
+*pyApp/firstApp/__pycache__/
+*.py[cod]
+*$py.class
+*env/*
+*.whl
